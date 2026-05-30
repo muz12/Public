@@ -16,7 +16,7 @@ API_SECRET     = os.getenv("BINANCE_API_SECRET", "orFZ8edXd0D39M6qq2dtqYlV9903Pf
 RISK_PCT       = 0.01        # 1% do saldo por trade
 SYMBOL         = "BTCUSDT"
 LEVERAGE       = 1
-WEBHOOK_SECRET = os.getenv("WEBHOOK_SECRET", "minha_chave_secreta_123")
+WEBHOOK_SECRET = ""
 
 # TP e SL em % do preço (quando não vêm no webhook)
 TP_PCT = 0.02   # 2% de take profit
