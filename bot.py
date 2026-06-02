@@ -15,12 +15,12 @@ API_KEY        = os.getenv("BINANCE_API_KEY",    "2br67w7BZFgHqODtMC0lRQieqBgNzf
 API_SECRET     = os.getenv("BINANCE_API_SECRET", "orFZ8edXd0D39M6qq2dtqYlV9903PfhCd3PWAQWCk6rSpTkpBJq9Rfo0TwocTw38")
 RISK_PCT       = 0.02        # 1% do saldo por trade
 SYMBOL         = "BTCUSDT"
-LEVERAGE       = 1
+LEVERAGE       = 5
 WEBHOOK_SECRET = ""
 
 # TP e SL em % do preço (quando não vêm no webhook)
-TP_PCT = 0.02   # 2% de take profit
-SL_PCT = 0.01   # 1% de stop loss
+TP_PCT = 0.015   # 2% de take profit
+SL_PCT = 0.005   # 1% de stop loss
 
 # ─── SETUP ───────────────────────────────────────────────────
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
